@@ -188,6 +188,11 @@ form.nosubmit {
         padding: 5px;
       }
 
+      .container {
+        max-width: 768px;
+        margin: auto;
+    }
+
       .container-content {
         max-width: 768px;
       }
