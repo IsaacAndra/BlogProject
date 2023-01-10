@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'icones';
+    src: url(/icon/font/icones.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #F3F5F7;
+
+}
+
+.container {
+    background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+}
+
+.container-itens {
+    max-width: 1440px;
+    height: 200px;
+    padding: 8px;
+    text-decoration: none;
+    margin: auto;
+}
+
+.container-blog {
+    max-width: 1040px;
+    height: 200px;
+    padding: 8px;
+    text-decoration: none;
+    margin: auto;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-top: 48px;
+    
+}   
+
+.link-andrade {
+    transition: .2s;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.link-andrade:hover {
+
+    opacity: .2;
+}
+
+.link-blog {
+    transition: .2s;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.link-blog:hover {
+
+    opacity: .2;
+}
+
+form.nosubmit {
+    border: none;
+    background: rgba(255, 255, 255, 0.2);;
+    padding: 0px;
+    border-radius: 5px;
+    margin-top: 40px;
+  }
+  
+  input.nosubmit {
+    width: 100%;
+    color: rgba(255, 255, 255, .5);
+    border: none;
+    display: block;
+    padding: 9px 4px 9px 40px;
+    background: transparent url(/icon/Vector.svg) no-repeat 13px center;
+  }
+
+.container-blog {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container-content {
+    background: #ffffff;
+    opacity: .9;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 374px;
+    height: 235px;
+    margin: auto;
+    transition: .2s;
+}
+
+.container-content:hover{
+    opacity: 1;
+}
+
+.container-content h1 {
+    font-size: 18px;
+    color: #1A202C;
+    margin-bottom: 12px;
+}
+
+.container-content span {
+    font-size: 14px;
+    color: #717171;
+}
+
+.container-content p {
+    font-size: 14px;
+    color: #717171;    
+}
+
+.data-curtir {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+
+
+
+
